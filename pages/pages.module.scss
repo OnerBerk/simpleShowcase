@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+.contactContainer p a{
+    display: flex;
+    justify-content: center;
+}
+.mail{
+    color: rgb(212,175,55);
+    font-family: 'Yeseva One','Playfair Display', 'Abril Fatface', cursive;
+    font-size: 1.2em;;
+}
+.mail:hover{
+    color:rgb(192,192,192);
+    font-size: 1.3em;;
+}
