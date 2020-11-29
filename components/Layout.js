@@ -29,7 +29,7 @@ const Layout=({children, title })=>(
 
         <header> 
             <Link href="/"><a> Acceuil </a></Link>
-            <Link href="/about"><a> A propos </a></Link>
+            <Link href="/about"><a> Gallerie </a></Link>
             <Link href="/contact"><a> Contact </a></Link> 
         </header>
             <Hamburger/>

@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next -p 4000"
+    "dev": "next -p 4000",
+    "build": "next build",
+    "prod_start": "NODE_ENV=production node server.js",
+    "export": "next export"
   },
   "repository": {
     "type": "git",

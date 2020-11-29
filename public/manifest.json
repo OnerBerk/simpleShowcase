@@ -1,0 +1,9 @@
+{
+  "name": "Kintsugi OnAir",
+  "short_name": "Kintsugi OnAir",
+  "theme_color": "#1a72b9",
+  "background_color": "#1b69a7",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}

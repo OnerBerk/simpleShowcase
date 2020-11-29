@@ -13,7 +13,7 @@ const HamburgerMenu =()=>{
             rounded duration={0.8} 
             toggled={open} 
             toggle={setOpen} 
-            color="snow"
+            color="darkgoldenrod"
             aria-label="hamburger-Menu"
         />
         {open &&
