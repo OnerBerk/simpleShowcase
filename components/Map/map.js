@@ -14,6 +14,7 @@ class Map extends Component {
   };
   render() {
     return (
+
       <ReactMapGL
         className={styles.map}
         mapStyle="mapbox://styles/mapbox/streets-v9"
@@ -21,7 +22,7 @@ class Map extends Component {
         mapboxApiAccessToken="pk.eyJ1IjoiYXV0b2Vjb2xlc2FpbnRsYXphcmUiLCJhIjoiY2tocnVzZnNlMGR5ZjJxbGhzNHFtZXpzbCJ9.SS42fxd-WVLk2ycjM64qQQ"
         onViewportChange={(viewport) => this.setState({ viewport })}
         {...this.state.viewport}
-      > 
+      >
       <Marker latitude={48.8534} longitude={2.345} offsetLeft={-20} offsetTop={-10}>
       <div className={styles.marker} > </div>
       <div className={styles.pulse} > </div>

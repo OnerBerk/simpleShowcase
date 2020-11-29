@@ -28,8 +28,8 @@ const Layout=({children, title })=>(
         <TextLogo/>
 
         <header> 
-            <Link href="/"><a> Acceuil </a></Link>
-            <Link href="/about"><a> Gallerie </a></Link>
+            <Link href="/"><a> Accueil </a></Link>
+            <Link href="/about"><a> Galerie </a></Link>
             <Link href="/contact"><a> Contact </a></Link> 
         </header>
             <Hamburger/>

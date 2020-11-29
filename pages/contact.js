@@ -12,7 +12,7 @@ const Contact =()=>(
             <a> 75005 Paris</a>
           </p>
         <p> Vous pouvez nous contacter par mail 
-          <a href="" > <span className={styles.mail}>ICI</span> </a>
+          <a href="mailto:one.bentos@gmail.com" > <span className={styles.mail}>ICI</span> </a>
         </p>
           <p>
           </p>
