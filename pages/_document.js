@@ -26,15 +26,7 @@ export default  class MyDocument extends Document {
                 <Main />
                 <NextScript/>
                 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-                <style jsx global>{`
-                @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-                body {
-                    font-family:'Yeseva One', 'Abril Fatface', cursive;
-                    background-image: url("../static/kintwall1_resultat.webp");
-                    color:black;
-                }
-                `}
-                </style>
+
 
             </body>
 

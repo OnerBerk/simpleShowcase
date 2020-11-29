@@ -38,6 +38,15 @@ const Layout=({children, title })=>(
         <footer> 
             &copy; Kintsugi X On.Air {new Date().getFullYear()}<br/>
         </footer>
+        <style jsx global>{`
+                @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+                body {
+                    font-family:'Yeseva One', 'Abril Fatface', cursive;
+                    background-image: url("../static/kintwall1_resultat.webp");
+                    color:black;
+                }
+                `}
+        </style>
     </div>
 )
 
