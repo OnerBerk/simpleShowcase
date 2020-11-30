@@ -19,7 +19,7 @@ const HamburgerMenu =()=>{
         {open &&
         <div>
             <ul className={styles.ham} >
-            <li><Link href="/" onClick={close}><a> Acceuil </a></Link></li>
+            <li><Link href="/" onClick={close}><a> Accueil </a></Link></li>
             <li><Link href="/about" onClick={close}><a> Galerie </a></Link></li>
             <li><Link href="/contact" onClick={close}><a> Contact </a></Link></li>
             </ul>
